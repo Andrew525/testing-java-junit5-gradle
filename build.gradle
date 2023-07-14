@@ -26,6 +26,8 @@ dependencies {
 }
 
 test {
+//    integration tests:
+//    https://www.petrikainulainen.net/programming/gradle/getting-started-with-gradle-integration-testing/
     useJUnitPlatform()
 
     testLogging.showStandardStreams = true
